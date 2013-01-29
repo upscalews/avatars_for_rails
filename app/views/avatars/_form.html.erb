@@ -18,7 +18,7 @@
   <div class="files"> 
     <%= form_for Avatar.new, :html => { :class => "upload", :multipart => true } do |f| %>
       <%= f.file_field :logo, :id=> "avatar_logo_drag" %>
-      <!--<div>Upload files</div>-->
+      <div>Upload files</div>
       <%= f.hidden_field :drag %>
     <% end %>
 
